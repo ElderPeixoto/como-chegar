@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Chegar</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f0f2f5;
+            color: #1c1e21;
+            padding: 20px 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 500px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 8px;
+            text-align: center;
+            color: #1877f2;
+        }
+        p {
+            font-size: 14px;
+            color: #606770;
+            text-align: center;
+            margin-bottom: 16px;
+            line-height: 1.4;
+        }
+        .img-box {
+            width: 100%;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #dddfe2;
+            margin-bottom: 20px;
+        }
+        .img-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .btn-gps {
+            display: block;
+            width: 100%;
+            padding: 14px 0;
+            background-color: #4285F4;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.2s;
+        }
+        .btn-gps:active {
+            background-color: #3367d6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Instruções de Acesso</h1>
+        <p>Siga o mapa abaixo para identificar a portaria e a localização da casa dentro do condomínio:</p>
+
+        <div class="img-box">
+            <!-- Certifique-se de que a imagem na pasta chama 'condominio.png' -->
+            <img src="condominio.png" alt="Mapa de acesso ao condomínio">
+        </div>
+
+        <!-- COLOQUE ABAIXO O SEU LINK/COORDENADAS DO GOOGLE MAPS OU WAZE -->
+        <a class="btn-gps" href="https://www.google.com/maps/dir/?api=1&destination=-3.7937606,-38.49546067" target="_blank">
+            🚗 Abrir Rota no GPS
+        </a>
+    </div>
+
+</body>
+</html>
